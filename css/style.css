@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* правильное отображение размеров с учетом margin and padding*/
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto; /* по центру */
+}
+.center {
+    margin: 0 auto;
+}
+.block {
+    display: block;
+}
+.headimg {
+    height: 800px;
+    background: url("../img/bg/imgheader.png") center center/cover no-repeat;   
+}
+.logo_text {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+#logo_top {
+    padding-top: 39px;
+    padding-bottom: 14px;
+}
+.h1_main {
+    margin-top: 53px;
+    margin-bottom: 21px;
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.59;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f9bf3b; 
+    text-transform: uppercase;
+}
+.simple {
+    margin: 0 auto;
+}
+.it_simple {
+    /* display: inline-block; */
+    padding-top: 21px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* .big_line1 {
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 13px;
+    width: 250px;
+    height: 1px;
+    background-color: white;
+}
+.big_line2 {
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 13px;
+    width: 250px;
+    height: 1px;
+    background-color: white;
+} */
+.h2_second {
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+.text_head {
+    margin: 23px 16px 73px 15px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+#free_bold {
+  font-weight: bold;
+  color: #f9bf3b;
+}
+.button_join {
+    width: 313px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+    background-image: linear-gradient(to top, #2798b9, #3ab6da);
+    border-radius: 8px;
+    border: 3px solid rgba(0, 0, 0, .8);
+    /* border: solid 4px rgba(0, 0, 0, 0.23); */
+}
+.join_text {
+    text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.know_more {
+    display: block;
+    margin: 0 auto;
+    padding-top: 73px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.arrows {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main first section */
+
+.first_section {
+    min-height: 604px;
+    background-color: #efefef;
+}
+.what_here {
+    padding-top: 84px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;  
+    text-transform: uppercase;
+}
+.big_line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.free_webinar {
+    margin-top: 16px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+.three_img {
+    display: flex;
+    justify-content: space-evenly;
+}
+.first_comp {
+    margin: 46px 20px 32px 20px;
+}
+.second_comp {
+    margin: 46px 20px 32px 20px; 
+}
+.third_comp {
+    margin: 46px 20px 32px 20px;
+}
+.three_text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* second section*/
+
+.second_section {
+    height: 550px;
+    background-color: white;
+}
+.Layer-15 {
+    width: 868px;
+    height: 502px;
+    margin: 48px 902px 0 70px;
+    background-image: url("../img/bg/woman_laptop.png");
+}
+.positionabsolute {
+    position: absolute;
+}
+.positionrelative {
+    position: relative;
+}
+.maintext_second_section {
+    margin-left: 621px;
+    margin-top: 102px;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #299cbd; 
+    text-transform: uppercase;
+}
+.alottext {
+    margin-left: 621px;
+    margin-right: 180px;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #4a4a4a;  
+}
+.indent {
+    margin-top: 8px;
+}
+.boldtext {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Third section */
+
+.third_section {
+    height: 447px;
+    background: url("../img/bg/screen_third_section.png") center center/cover no-repeat;
+}
+.endof_study {
+    padding-top: 85px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+    text-transform: uppercase;
+}
+.five_icons {
+    margin-top: 41px;
+}
+.icon_one{
+    margin-left: 47px; 
+}
+.icon_two {
+    margin-left: 118px;
+}
+.icon_three {
+    margin-left: 118px;
+}
+.icon_fourth {
+    margin-left: 118px;
+}
+.icon_five {
+    margin-left: 118px;
+}
+.five_text {
+    padding-top: 25px;
+    display: inline-block;
+}
+.icon_onetext {
+    margin-left: 13px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+}
+.icon_twotext {
+    margin-left: 79px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+}
+.icon_threetext {
+    margin-left: 57px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+}
+.icon_fourthtext{
+    margin-left: 30px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+}
+.icon_fivetext {
+    margin-left: 54px;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #efefef;
+}
+
+/* Fourth section */
+
+.fourth_section {
+    height: 628px;
+    background-color: #efefef;
+}
+.present {
+    display: block;
+    padding-top: 86px;
+    margin: 0 auto;
+}
+.textuder_present {
+    margin-top: 42px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+.button_join_last {
+    width: 313px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 52px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
+    background-image: linear-gradient(to top, #2798b9, #3ab6da);
+    border-radius: 8px;
+    border: 4px solid #d5d5d5;
+}
+
+
+/* Fifth section */
+
+.fifth_section {
+    height: 515px;
+    background-color: white;
+}
+.onescreen img {
+    display: block;
+    padding-top: 89px;
+    margin: 0 auto;
+}
+.firstwebinar {
+    margin: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+.date_time {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+.limit_space {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+/* Footer */
+
+.mainfooter {
+  height: 166px;
+  background-color: #1a1a1a;
+}
+.footer_support {
+    text-align: center;
+}
+.footer_support a {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;  
+}
+.call_us {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888888;
+}
+  
