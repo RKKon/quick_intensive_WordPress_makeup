@@ -1,0 +1,66 @@
+/* Main first section */
+
+.first_section {
+  min-height: 604px;
+  background-color: #efefef;
+}
+
+.what_here {
+  padding-top: 84px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+  text-transform: uppercase;
+}
+
+.big_line {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.free_webinar {
+  margin-top: 16px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.three_img {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.comp {
+  margin: 46px 20px 32px 20px;
+  max-width: 100%;
+}
+
+.text_computer {
+  margin: 0 20px;
+}
+
+.item {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}

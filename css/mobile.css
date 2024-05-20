@@ -1,0 +1,259 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 99.5% !important;
+  }
+
+  .comp {
+    margin: 26px 10px 12px 10px;
+    max-width: 90%;
+  }
+
+  .text_computer {
+    margin: 10px;
+  }
+
+  .flex_container>div:first-child {
+    flex: 0 0 44%;
+    padding-top: 10px;
+    width: 45%;
+    flex-grow: 0.5;
+  }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 768px) {
+  .headimg {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .h1_main {
+    font-size: 24px;
+  }
+
+  .it_simple {
+    font-size: 69px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+
+  .h2_second {
+    font-size: 35px;
+  }
+
+  .text_head {
+    margin: 22px 16px 55px 15px;
+  }
+
+  .know_more {
+    padding-top: 40px;
+  }
+
+  .what_here {
+    padding-top: 70px;
+    font-size: 24px;
+  }
+
+  .three_img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .third_section {
+    height: 100%;
+  }
+
+  .five_icons {
+    flex-direction: column;
+  }
+
+  .five_icons>div {
+    margin-bottom: 25px;
+  }
+
+  .endof_study {
+    padding-top: 50px;
+    font-size: 21px;
+  }
+
+  .fourth_section {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .fifth_section {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .onescreen {
+    margin-bottom: 30px;
+  }
+
+  .onescreen img {
+    padding-top: 60px;
+  }
+
+  .firstwebinar {
+    margin: 15px 0;
+    font-size: 30px;
+  }
+
+  .date_time {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  .flex_container>div:first-child {
+    display: none;
+  }
+
+  .flex_container>div:last-child {
+    width: 100%;
+    margin-left: auto;
+    flex: 0 0 99%;
+    flex-grow: 0.5;
+  }
+
+  .alottext {
+    font-size: 18px;
+  }
+
+  .textuder_present {
+    font-size: 25px;
+  }
+
+  .modal_message {
+    font-size: 28px;
+    padding: 10px 27px;
+    width: 80%;
+  }
+
+  .thanks_modal_cross {
+    right: 10.5%;
+
+  }
+}
+
+@media (max-width: 725px) {
+  .modal_message {
+    font-size: 28px;
+    padding: 10px 25px;
+    width: 80%;
+  }
+
+  .thanks_modal_cross {
+    right: 10.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .what_here {
+    font-size: 24px;
+  }
+
+  .free_webinar {
+    font-size: 18px;
+  }
+
+  .firstwebinar {
+    font-size: 28px;
+  }
+
+  .popup_calc_end_content,
+  .popup_content,
+  .popup_engineer_content {
+    width: 85%;
+  }
+
+  .form {
+    padding: 30px 20px;
+  }
+
+  .thanks_modal_cross {
+    top: 28%;
+    right: 10.5%;
+  }
+
+  .modal_message {
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 85%;
+  }
+
+  .flex_container>div:last-child {
+    background: url(../img/bg/woman_laptop.png) no-repeat 92% / cover;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .h1_main {
+    font-size: 19px;
+  }
+
+  .it_simple {
+    font-size: 55px;
+  }
+
+  .what_here {
+    font-size: 19px;
+  }
+
+  .endof_study {
+    font-size: 17px;
+  }
+
+  .firstwebinar {
+    font-size: 23px;
+  }
+
+  .date_time {
+    font-size: 21px;
+  }
+
+  .form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+  }
+
+  .thanks_modal_cross {
+    right: 8%;
+  }
+}
+
+@media (max-width: 360px) {
+  .h1_main {
+    font-size: 17px;
+  }
+
+  .it_simple {
+    font-size: 47px;
+  }
+
+  .what_here {
+    font-size: 16px;
+  }
+
+  .onescreen img {
+    padding-top: 50px;
+    width: 90%;
+  }
+
+  .firstwebinar {
+    font-size: 20px;
+  }
+
+  .date_time {
+    font-size: 18px;
+  }
+
+  .endof_study {
+    font-size: 15px;
+  }
+
+  .form h2 {
+    font-size: 17px;
+  }
+}

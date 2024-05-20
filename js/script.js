@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     crossThanks.addEventListener('click', () => div.remove())
 
-    setTimeout(() => div.remove(), 3000);
+    setTimeout(() => div.remove(), 2223000);
   }
 
   const fillOutForm = () => {
@@ -65,6 +65,12 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     isMouseDown = false;
   });
+
+  document.body.addEventListener('keydown', (e) => {
+    if (e.code === 'Escape') {
+      closeForm();
+    }
+  })
 
   fillOutForm()
   closeFormCross(cross)

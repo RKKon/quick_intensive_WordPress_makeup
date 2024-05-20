@@ -1,0 +1,40 @@
+/* Footer */
+
+.mainfooter {
+  height: 166px;
+  background-color: #1a1a1a;
+}
+
+.footer_support {
+  text-align: center;
+}
+
+.footer_support a {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 60px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888;
+}
+
+.call_us {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #888888;
+}

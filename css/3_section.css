@@ -1,0 +1,147 @@
+/* Third section */
+
+.third_section {
+  height: 447px;
+  background: url("../img/bg/screen_third_section.png") center center/cover no-repeat;
+}
+
+.endof_study {
+  padding-top: 85px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+  text-transform: uppercase;
+}
+
+.five_icons {
+  margin-top: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  position: relative;
+}
+
+.five_icons>div {
+  flex: 0 0 20%
+}
+
+.end_study_text {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.end_study_img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* .icon_one {
+  margin-left: 47px;
+}
+
+.icon_two {
+  margin-left: 118px;
+}
+
+.icon_three {
+  margin-left: 118px;
+}
+
+.icon_fourth {
+  margin-left: 118px;
+}
+
+.icon_five {
+  margin-left: 118px;
+}
+
+.five_text {
+  padding-top: 25px;
+  display: inline-block;
+}
+
+.icon_onetext {
+  margin-left: 13px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.icon_twotext {
+  margin-left: 79px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.icon_threetext {
+  margin-left: 57px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.icon_fourthtext {
+  margin-left: 30px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+}
+
+.icon_fivetext {
+  margin-left: 54px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #efefef;
+} */

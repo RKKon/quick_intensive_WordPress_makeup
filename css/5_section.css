@@ -1,0 +1,53 @@
+/* Fifth section */
+
+.fifth_section {
+  height: 515px;
+  background-color: white;
+}
+
+.onescreen img {
+  display: block;
+  padding-top: 89px;
+  margin: 0 auto;
+}
+
+.firstwebinar {
+  margin: 37px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #252525;
+  text-transform: uppercase;
+}
+
+.date_time {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #299cbd;
+  text-transform: uppercase;
+}
+
+.limit_space {
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.87;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
