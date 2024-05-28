@@ -221,6 +221,15 @@
   .thanks_modal_cross {
     right: 8%;
   }
+
+  .footer_support {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .footer_support a {
+    margin: 5px auto;
+  }
 }
 
 @media (max-width: 360px) {
